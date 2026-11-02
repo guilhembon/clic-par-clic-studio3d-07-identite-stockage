@@ -63,9 +63,9 @@ it. It has no key for the `spaces` bucket, and its Keycloak client secret yields
 ## Prerequisites
 
 - The studio of **module 5** for the asset library image `studio3d-assets:1` (repository
-  [`clic-par-clic-studio3d-05-assets`](https://github.com/guilhem-/clic-par-clic-studio3d-05-assets),
+  [`clic-par-clic-studio3d-05-assets`](https://github.com/guilhembon/clic-par-clic-studio3d-05-assets),
   which builds it with its `catalog.json`), KEDA 2.21.0, and the storage of **module 6**
-  (repository [`clic-par-clic-studio3d-06-stockage-s3`](https://github.com/guilhem-/clic-par-clic-studio3d-06-stockage-s3)) —
+  (repository [`clic-par-clic-studio3d-06-stockage-s3`](https://github.com/guilhembon/clic-par-clic-studio3d-06-stockage-s3)) —
   this repository contains the storage again, with its module 7 additions.
 - A **k3d** cluster (k3s 1.35, Traefik published on port 8080: the addresses `sso.localhost:8080`,
   `s3.localhost:8080`, `stockage.localhost:8080`, `studio.localhost:8080` are used as is), `kubectl`,
@@ -191,6 +191,6 @@ independent projects; this series is independent of the publishers of the softwa
 ## The series
 
 - Previous module: **Downloading the Blender scene from another team's storage** — repository
-  [`clic-par-clic-studio3d-06-stockage-s3`](https://github.com/guilhem-/clic-par-clic-studio3d-06-stockage-s3).
+  [`clic-par-clic-studio3d-06-stockage-s3`](https://github.com/guilhembon/clic-par-clic-studio3d-06-stockage-s3).
 - This is the last module of the series. Going further: the **AI Integrations** series connects this
   studio to Open WebUI in four different ways.
